@@ -27,6 +27,7 @@ This project compares the performance of various Java data structures by measuri
 ### Classes
 
 1. **NumberCruncher.java**
+
    - Main class that runs the performance tests
    - Generates random test data
    - Measures and reports execution times for each operation
