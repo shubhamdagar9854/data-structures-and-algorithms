@@ -2,10 +2,10 @@ package data_structures.linear.bag;
 
 /**
  * An interface that describes the operations of a bag of objects.
+ * 
  * @author bjornmelin
  */
-public interface BagInterface<T>
-{
+public interface BagInterface<T> {
     /**
      * Gets the current number of entries in this bag.
      *
@@ -32,7 +32,7 @@ public interface BagInterface<T>
      * Removes one unspecified entry from this bag, if possible.
      *
      * @return Either the removed entry, if the removal. was successful, or
-     * null.
+     *         null.
      */
     public T remove();
 
@@ -69,26 +69,28 @@ public interface BagInterface<T>
      * Retrieves all entries that are in this bag.
      *
      * @return A newly allocated array of all the entries in the bag. Note: If
-     * the bag is empty, the returned array is empty.
+     *         the bag is empty, the returned array is empty.
      */
     public T[] toArray();
 
-    /** Creates a new bag that combines the contents of this bag and anotherBag.
+    /**
+     * Creates a new bag that combines the contents of this bag and anotherBag.
      *
      * @param anotherBag The bag that is to be added.
      * @return A combined bag.
      */
     public BagInterface<T> union(BagInterface<T> anotherBag);
-    
+
     /**
-     * Creates a new bag that contains those objects that are present in both this bag
+     * Creates a new bag that contains those objects that are present in both this
+     * bag
      * and anotherBag.
      *
      * @param anotherBag The bag that is to be compared.
      * @return A combined bag.
      */
     public BagInterface<T> intersection(BagInterface<T> anotherBag);
-    
+
     /**
      * Creates a new bag of objects appeared in both bags.
      *

@@ -3,6 +3,7 @@
 Thank you for considering contributing to our Data Structures and Algorithms repository! This document outlines the guidelines for contributing to this project.
 
 ## Table of Contents
+
 - [Code of Conduct](#code-of-conduct)
 - [How Can I Contribute?](#how-can-i-contribute)
 - [Style Guidelines](#style-guidelines)
@@ -10,11 +11,13 @@ Thank you for considering contributing to our Data Structures and Algorithms rep
 - [Development Setup](#development-setup)
 
 ## Code of Conduct
+
 This project and everyone participating in it are governed by our Code of Conduct. By participating, you are expected to uphold this code.
 
 ## How Can I Contribute?
 
 ### Implementing New Algorithms or Data Structures
+
 1. Check if the implementation already exists
 2. Follow the established project structure
 3. Include comprehensive tests
@@ -22,12 +25,14 @@ This project and everyone participating in it are governed by our Code of Conduc
 5. Update the respective language's README.md
 
 ### Improving Existing Implementations
+
 - Optimize performance
 - Enhance documentation
 - Add more test cases
 - Fix bugs
 
 ### Adding New Language Implementations
+
 1. Create a new directory for the language
 2. Follow the established project structure
 3. Include language-specific README.md
@@ -38,12 +43,14 @@ This project and everyone participating in it are governed by our Code of Conduc
 ## Style Guidelines
 
 ### General Guidelines
+
 - Write clear, readable code
 - Include time and space complexity analysis
 - Document public interfaces thoroughly
 - Follow language-specific conventions
 
 ### Java
+
 - Follow Oracle's Java Code Conventions
 - Use PascalCase for class names
 - Use camelCase for methods and variables
@@ -51,6 +58,7 @@ This project and everyone participating in it are governed by our Code of Conduc
 - Include JavaDoc comments
 
 ### Python
+
 - Follow PEP 8 guidelines
 - Use snake_case for functions and variables
 - Use PascalCase for class names
@@ -79,7 +87,9 @@ This project and everyone participating in it are governed by our Code of Conduc
 6. Create a Pull Request
 
 ### Commit Message Format
+
 Follow conventional commits:
+
 - `feat`: New feature
 - `fix`: Bug fix
 - `docs`: Documentation changes
@@ -88,6 +98,7 @@ Follow conventional commits:
 - `style`: Code style changes
 
 Example:
+
 ```
 feat(java): add quick sort implementation
 
@@ -99,6 +110,7 @@ feat(java): add quick sort implementation
 ## Development Setup
 
 ### Java
+
 ```bash
 cd java
 ./gradlew build
@@ -106,6 +118,7 @@ cd java
 ```
 
 ### Python
+
 ```bash
 cd python
 python -m venv venv
@@ -117,25 +130,27 @@ pytest
 ## Testing Guidelines
 
 ### Required Tests
+
 - Edge cases (empty input, single element, etc.)
 - Random input
 - Large datasets
 - Performance benchmarks
 
 ### Example Test Structure
+
 ```python
 def test_binary_search():
     # Setup
     arr = [1, 2, 3, 4, 5]
-    
+
     # Edge cases
     assert binary_search([], 1) == -1
     assert binary_search([1], 1) == 0
-    
+
     # Normal cases
     assert binary_search(arr, 3) == 2
     assert binary_search(arr, 5) == 4
-    
+
     # Not found cases
     assert binary_search(arr, 6) == -1
 ```

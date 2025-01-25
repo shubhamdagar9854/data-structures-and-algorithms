@@ -73,20 +73,21 @@ BagInterface<String> difference = bag.difference(bag2);
 
 ## Time Complexity
 
-| Operation | Average Case |
-|-----------|-------------|
-| add | O(1) |
-| remove | O(1) |
-| contains | O(n) |
-| union | O(n) |
-| intersection | O(n) |
-| difference | O(n) |
+| Operation    | Average Case |
+| ------------ | ------------ |
+| add          | O(1)         |
+| remove       | O(1)         |
+| contains     | O(n)         |
+| union        | O(n)         |
+| intersection | O(n)         |
+| difference   | O(n)         |
 
 Where n is the number of items in the bag.
 
 ## Testing
 
 The `ResizableArrayBagDemo` class provides comprehensive tests for all bag operations including:
+
 - Basic operations (add, remove, clear)
 - Set operations (union, intersection, difference)
 - Property tests (isEmpty, getCurrentSize)
