@@ -10,6 +10,7 @@
 [Features](#features) • [Languages](#languages) • [Structure](#structure) • [Quick Start](#quick-start) • [Contributing](#contributing)
 
 ## 📑 Table of Contents
+
 - [Features](#features)
 - [Languages](#languages)
 - [Project Structure](#project-structure)
@@ -25,6 +26,7 @@
 - [Acknowledgments](#acknowledgments)
 
 ## ✨ Features
+
 - Clean, efficient implementations of common data structures
 - Well-documented algorithms with time and space complexity analysis
 - Comprehensive test coverage for all implementations
@@ -33,11 +35,13 @@
 - Multiple implementation approaches with comparisons
 
 ## 💻 Languages
+
 Currently implemented in:
+
 - Java (JDK 17+)
 - Python (3.8+)
 
-*Future languages planned: JavaScript, C++*
+_Future languages planned: JavaScript, C++_
 
 ## 📁 Project Structure
 
@@ -96,11 +100,13 @@ algorithms-and-data-structures/
     │   └── graphs/
     └── tests/
 ```
+
 </details>
 
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Java 17+ (for Java implementations)
 - Python 3.8+ (for Python implementations)
 - Git
@@ -126,39 +132,45 @@ python -m pytest
 
 ### Data Structures
 
-| Structure | Java | Python | Time Complexity (Average) |
-|-----------|------|--------|-------------------------|
-| Linked List | ✅ | ✅ | Access: O(n), Insert: O(1) |
-| Binary Tree | ✅ | ✅ | Search: O(log n) |
-| Hash Table | ✅ | ✅ | Search: O(1) |
-| Stack | ✅ | ✅ | Push/Pop: O(1) |
-| Queue | ✅ | ✅ | Enqueue/Dequeue: O(1) |
+| Structure   | Java | Python | Time Complexity (Average)  |
+| ----------- | ---- | ------ | -------------------------- |
+| Linked List | ✅   | ✅     | Access: O(n), Insert: O(1) |
+| Binary Tree | ✅   | ✅     | Search: O(log n)           |
+| Hash Table  | ✅   | ✅     | Search: O(1)               |
+| Stack       | ✅   | ✅     | Push/Pop: O(1)             |
+| Queue       | ✅   | ✅     | Enqueue/Dequeue: O(1)      |
 
 ### Algorithms
 
-| Algorithm | Category | Java | Python | Time Complexity |
-|-----------|----------|------|---------|----------------|
-| Quick Sort | Sorting | ✅ | ✅ | O(n log n) |
-| Merge Sort | Sorting | ✅ | ✅ | O(n log n) |
-| Binary Search | Searching | ✅ | ✅ | O(log n) |
-| DFS | Graph | ✅ | ✅ | O(V + E) |
-| BFS | Graph | ✅ | ✅ | O(V + E) |
+| Algorithm     | Category  | Java | Python | Time Complexity |
+| ------------- | --------- | ---- | ------ | --------------- |
+| Quick Sort    | Sorting   | ✅   | ✅     | O(n log n)      |
+| Merge Sort    | Sorting   | ✅   | ✅     | O(n log n)      |
+| Binary Search | Searching | ✅   | ✅     | O(log n)        |
+| DFS           | Graph     | ✅   | ✅     | O(V + E)        |
+| BFS           | Graph     | ✅   | ✅     | O(V + E)        |
 
 ## 🤝 Contributing
+
 Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on how to submit pull requests, report issues, and contribute to the project.
 
 ## ✍️ Authors
+
 **Bjorn Melin**
+
 - GitHub: [@BjornMelin](https://github.com/BjornMelin)
 - LinkedIn: [Bjorn Melin](https://linkedin.com/in/bjorn-melin)
 
 ## 📄 License
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
+
 - Various computer science textbooks and online resources
 - Open source community
 - Interview preparation materials
 
 ---
+
 Made with ⚡️ by Bjorn Melin
