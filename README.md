@@ -92,13 +92,47 @@ algorithms-and-data-structures/
     ├── README.md
     ├── algorithms/
     │   ├── sorting/
+    │   │   ├── quick_sort.py
+    │   │   ├── merge_sort.py
+    │   │   ├── heap_sort.py
+    │   │   ├── bubble_sort.py
+    │   │   ├── selection_sort.py
+    │   │   ├── insertion_sort.py
+    │   │   ├── radix_sort.py
+    │   │   ├── counting_sort.py
+    │   │   ├── bucket_sort.py
+    │   │   └── tim_sort.py
     │   ├── searching/
+    │   │   ├── binary_search.py
+    │   │   └── linear_search.py
     │   └── graph/
+    │       ├── dfs.py
+    │       └── bfs.py
     ├── data_structures/
     │   ├── linear/
+    │   │   ├── linked_list.py
+    │   │   ├── stack.py
+    │   │   └── queue.py
     │   ├── trees/
+    │   │   ├── binary_tree.py
+    │   │   └── avl_tree.py
     │   └── graphs/
-    └── tests/
+    │       └── graph.py
+    ├── tests/
+    │   ├── algorithms/
+    │   │   ├── test_quick_sort.py
+    │   │   ├── test_merge_sort.py
+    │   │   ├── test_heap_sort.py
+    │   │   ├── test_bubble_sort.py
+    │   │   ├── test_selection_sort.py
+    │   │   ├── test_insertion_sort.py
+    │   │   ├── test_radix_sort.py
+    │   │   ├── test_counting_sort.py
+    │   │   ├── test_bucket_sort.py
+    │   │   └── test_tim_sort.py
+    │   └── data_structures/
+    ├── requirements.txt
+    └── setup.py
 ```
 
 </details>
@@ -149,6 +183,13 @@ python -m pytest
 | Binary Search | Searching | ✅   | ✅     | O(log n)        |
 | DFS           | Graph     | ✅   | ✅     | O(V + E)        |
 | BFS           | Graph     | ✅   | ✅     | O(V + E)        |
+| Bubble Sort   | Sorting   | ❌   | ✅     | O(n^2)          |
+| Selection Sort| Sorting   | ❌   | ✅     | O(n^2)          |
+| Insertion Sort| Sorting   | ❌   | ✅     | O(n^2)          |
+| Radix Sort    | Sorting   | ❌   | ✅     | O(nk)           |
+| Counting Sort | Sorting   | ❌   | ✅     | O(n + k)        |
+| Bucket Sort   | Sorting   | ❌   | ✅     | O(n + k)        |
+| Tim Sort      | Sorting   | ❌   | ✅     | O(n log n)      |
 
 ## 🤝 Contributing
 
