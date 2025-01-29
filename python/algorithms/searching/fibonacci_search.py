@@ -1,5 +1,6 @@
 from typing import List, Any
 
+
 def fibonacci_search(arr: List[Any], target: Any) -> int:
     """
     Perform a Fibonacci search on the given sorted list to find the target element.

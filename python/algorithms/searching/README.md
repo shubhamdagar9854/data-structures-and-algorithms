@@ -48,14 +48,14 @@ def linear_search(arr, target):
 
 ### Testing Results
 
-| Test Case                  | Result |
-|----------------------------|--------|
-| Element at start           | Pass   |
-| Element in middle          | Pass   |
-| Element at end             | Pass   |
-| Element not found          | Pass   |
-| Empty list                 | Pass   |
-| Single-element list        | Pass   |
+| Test Case           | Result |
+| ------------------- | ------ |
+| Element at start    | Pass   |
+| Element in middle   | Pass   |
+| Element at end      | Pass   |
+| Element not found   | Pass   |
+| Empty list          | Pass   |
+| Single-element list | Pass   |
 
 ### Usage Guide
 
@@ -116,14 +116,14 @@ def binary_search(arr, target):
 
 ### Testing Results
 
-| Test Case                  | Result |
-|----------------------------|--------|
-| Element at start           | Pass   |
-| Element in middle          | Pass   |
-| Element at end             | Pass   |
-| Element not found          | Pass   |
-| Empty list                 | Pass   |
-| Single-element list        | Pass   |
+| Test Case           | Result |
+| ------------------- | ------ |
+| Element at start    | Pass   |
+| Element in middle   | Pass   |
+| Element at end      | Pass   |
+| Element not found   | Pass   |
+| Empty list          | Pass   |
+| Single-element list | Pass   |
 
 ### Usage Guide
 
@@ -189,14 +189,14 @@ def jump_search(arr, target):
 
 ### Testing Results
 
-| Test Case                  | Result |
-|----------------------------|--------|
-| Element at start           | Pass   |
-| Element in middle          | Pass   |
-| Element at end             | Pass   |
-| Element not found          | Pass   |
-| Empty list                 | Pass   |
-| Single-element list        | Pass   |
+| Test Case           | Result |
+| ------------------- | ------ |
+| Element at start    | Pass   |
+| Element in middle   | Pass   |
+| Element at end      | Pass   |
+| Element not found   | Pass   |
+| Empty list          | Pass   |
+| Single-element list | Pass   |
 
 ### Usage Guide
 
@@ -257,14 +257,14 @@ def interpolation_search(arr, target):
 
 ### Testing Results
 
-| Test Case                  | Result |
-|----------------------------|--------|
-| Element at start           | Pass   |
-| Element in middle          | Pass   |
-| Element at end             | Pass   |
-| Element not found          | Pass   |
-| Empty list                 | Pass   |
-| Single-element list        | Pass   |
+| Test Case           | Result |
+| ------------------- | ------ |
+| Element at start    | Pass   |
+| Element in middle   | Pass   |
+| Element at end      | Pass   |
+| Element not found   | Pass   |
+| Empty list          | Pass   |
+| Single-element list | Pass   |
 
 ### Usage Guide
 
@@ -327,14 +327,14 @@ def exponential_search(arr, target):
 
 ### Testing Results
 
-| Test Case                  | Result |
-|----------------------------|--------|
-| Element at start           | Pass   |
-| Element in middle          | Pass   |
-| Element at end             | Pass   |
-| Element not found          | Pass   |
-| Empty list                 | Pass   |
-| Single-element list        | Pass   |
+| Test Case           | Result |
+| ------------------- | ------ |
+| Element at start    | Pass   |
+| Element in middle   | Pass   |
+| Element at end      | Pass   |
+| Element not found   | Pass   |
+| Empty list          | Pass   |
+| Single-element list | Pass   |
 
 ### Usage Guide
 
@@ -422,14 +422,14 @@ def fibonacci_search(arr, target):
 
 ### Testing Results
 
-| Test Case                  | Result |
-|----------------------------|--------|
-| Element at start           | Pass   |
-| Element in middle          | Pass   |
-| Element at end             | Pass   |
-| Element not found          | Pass   |
-| Empty list                 | Pass   |
-| Single-element list        | Pass   |
+| Test Case           | Result |
+| ------------------- | ------ |
+| Element at start    | Pass   |
+| Element in middle   | Pass   |
+| Element at end      | Pass   |
+| Element not found   | Pass   |
+| Empty list          | Pass   |
+| Single-element list | Pass   |
 
 ### Usage Guide
 
@@ -499,14 +499,14 @@ def ternary_search(arr, target, left=0, right=None):
 
 ### Testing Results
 
-| Test Case                  | Result |
-|----------------------------|--------|
-| Element at start           | Pass   |
-| Element in middle          | Pass   |
-| Element at end             | Pass   |
-| Element not found          | Pass   |
-| Empty list                 | Pass   |
-| Single-element list        | Pass   |
+| Test Case           | Result |
+| ------------------- | ------ |
+| Element at start    | Pass   |
+| Element in middle   | Pass   |
+| Element at end      | Pass   |
+| Element not found   | Pass   |
+| Empty list          | Pass   |
+| Single-element list | Pass   |
 
 ### Usage Guide
 
@@ -554,14 +554,14 @@ def hash_based_search(arr, target):
 
 ### Testing Results
 
-| Test Case                  | Result |
-|----------------------------|--------|
-| Element at start           | Pass   |
-| Element in middle          | Pass   |
-| Element at end             | Pass   |
-| Element not found          | Pass   |
-| Empty list                 | Pass   |
-| Single-element list        | Pass   |
+| Test Case           | Result |
+| ------------------- | ------ |
+| Element at start    | Pass   |
+| Element in middle   | Pass   |
+| Element at end      | Pass   |
+| Element not found   | Pass   |
+| Empty list          | Pass   |
+| Single-element list | Pass   |
 
 ### Usage Guide
 

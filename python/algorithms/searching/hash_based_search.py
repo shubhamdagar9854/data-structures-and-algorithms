@@ -1,5 +1,6 @@
 from typing import Dict, Any
 
+
 def hash_based_search(data: Dict[Any, Any], target: Any) -> Any:
     """
     Perform a hash-based search using Python's dictionary to find the target element.

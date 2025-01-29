@@ -24,7 +24,7 @@ This document presents the benchmark results for various Python searching algori
 ### Small Dataset (1,000 elements)
 
 | Algorithm            | Average Time (ms) |
-|----------------------|-------------------|
+| -------------------- | ----------------- |
 | Linear Search        | 0.15              |
 | Binary Search        | 0.01              |
 | Binary Search (Rec)  | 0.02              |
@@ -38,7 +38,7 @@ This document presents the benchmark results for various Python searching algori
 ### Medium Dataset (10,000 elements)
 
 | Algorithm            | Average Time (ms) |
-|----------------------|-------------------|
+| -------------------- | ----------------- |
 | Linear Search        | 1.50              |
 | Binary Search        | 0.10              |
 | Binary Search (Rec)  | 0.12              |
@@ -52,7 +52,7 @@ This document presents the benchmark results for various Python searching algori
 ### Large Dataset (100,000 elements)
 
 | Algorithm            | Average Time (ms) |
-|----------------------|-------------------|
+| -------------------- | ----------------- |
 | Linear Search        | 15.00             |
 | Binary Search        | 1.00              |
 | Binary Search (Rec)  | 1.20              |

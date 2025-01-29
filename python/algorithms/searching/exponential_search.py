@@ -1,5 +1,6 @@
 from typing import List, Any
 
+
 def binary_search(arr: List[Any], target: Any, left: int, right: int) -> int:
     """
     Perform a binary search on the given sorted list to find the target element.
@@ -31,6 +32,7 @@ def binary_search(arr: List[Any], target: Any, left: int, right: int) -> int:
             right = mid - 1
 
     return -1
+
 
 def exponential_search(arr: List[Any], target: Any) -> int:
     """

@@ -1,6 +1,7 @@
 import math
 from typing import List, Any
 
+
 def jump_search(arr: List[Any], target: Any) -> int:
     """
     Perform a jump search on the given sorted list to find the target element.

@@ -1,5 +1,6 @@
 from typing import List, Any
 
+
 def interpolation_search(arr: List[Any], target: Any) -> int:
     """
     Perform an interpolation search on the given sorted list to find the target element.
@@ -26,7 +27,9 @@ def interpolation_search(arr: List[Any], target: Any) -> int:
                 return low
             return -1
 
-        pos = low + int(((float(high - low) / (arr[high] - arr[low])) * (target - arr[low])))
+        pos = low + int(
+            ((float(high - low) / (arr[high] - arr[low])) * (target - arr[low]))
+        )
 
         if arr[pos] == target:
             return pos

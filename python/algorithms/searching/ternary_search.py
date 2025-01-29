@@ -1,5 +1,6 @@
 from typing import List, Any
 
+
 def ternary_search(arr: List[Any], target: Any) -> int:
     """
     Perform a ternary search on the given sorted list to find the target element.
