@@ -1,5 +1,5 @@
 import pytest
-from algorithms.sorting.counting_sort import counting_sort
+from python.algorithms.sorting.counting_sort.counting_sort import counting_sort
 
 def test_counting_sort_empty():
     """

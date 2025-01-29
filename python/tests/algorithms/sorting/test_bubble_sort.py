@@ -1,5 +1,5 @@
 import pytest
-from algorithms.sorting.bubble_sort import bubble_sort
+from python.algorithms.sorting.bubble_sort.bubble_sort import bubble_sort
 
 def test_bubble_sort_empty():
     """Test bubble sort with an empty list."""

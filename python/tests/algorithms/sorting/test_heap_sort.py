@@ -1,5 +1,5 @@
 import pytest
-from algorithms.sorting.heap_sort import heap_sort
+from python.algorithms.sorting.heap_sort.heap_sort import heap_sort
 
 def test_heap_sort_empty():
     """

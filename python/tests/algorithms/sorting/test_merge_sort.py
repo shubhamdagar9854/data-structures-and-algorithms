@@ -1,5 +1,5 @@
 import pytest
-from algorithms.sorting.merge_sort import merge_sort
+from python.algorithms.sorting.merge_sort.merge_sort import merge_sort
 
 def test_merge_sort_empty():
     """

@@ -1,5 +1,5 @@
 import pytest
-from algorithms.sorting.radix_sort import radix_sort
+from python.algorithms.sorting.radix_sort.radix_sort import radix_sort
 
 def test_radix_sort_empty():
     """

@@ -1,5 +1,5 @@
 import pytest
-from algorithms.sorting.tim_sort import tim_sort
+from python.algorithms.sorting.tim_sort.tim_sort import tim_sort
 
 def test_tim_sort_empty():
     """

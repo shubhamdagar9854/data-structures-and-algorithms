@@ -1,5 +1,5 @@
 import pytest
-from algorithms.sorting.bucket_sort import bucket_sort
+from python.algorithms.sorting.bucket_sort.bucket_sort import bucket_sort
 
 def test_bucket_sort_empty():
     """
