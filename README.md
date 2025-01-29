@@ -7,23 +7,24 @@
 
 > A comprehensive collection of data structures and algorithms implemented in multiple programming languages. Perfect for learning, interviews, and competitive programming!
 
-[Features](#features) • [Languages](#languages) • [Structure](#structure) • [Quick Start](#quick-start) • [Contributing](#contributing)
+[✨ Features](#features) • [💻 Languages](#languages) • [📁 Structure](#project-structure) • [🚀 Quick Start](#getting-started) • [🤝 Contributing](#contributing)
 
 ## 📑 Table of Contents
 
-- [Features](#features)
-- [Languages](#languages)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
+- [✨ Features](#features)
+- [💻 Languages](#languages)
+- [📁 Project Structure](#project-structure)
+- [🚀 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
-- [Documentation](#documentation)
+- [📚 Documentation](#documentation)
   - [Data Structures](#data-structures)
   - [Algorithms](#algorithms)
-- [Contributing](#contributing)
-- [Authors](#authors)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [🤝 Contributing](#contributing)
+- [✍️ Authors](#authors)
+- [📚 How to Cite](#how-to-cite)
+- [📄 License](#license)
+- [🙏 Acknowledgments](#acknowledgments)
 
 ## ✨ Features
 
@@ -54,16 +55,8 @@ graph TD
     B --> F[src/data_structures]
     B --> G[tests]
     C --> H[algorithms]
-    C --> I[data_structures]
-    C --> J[tests]
-    E --> K[sorting]
-    E --> L[searching]
-    F --> M[linear]
-    F --> N[trees]
-    H --> O[sorting]
-    H --> P[searching]
-    I --> Q[linear]
-    I --> R[trees]
+    H --> I[sorting]
+    H --> J[searching]
 ```
 
 <details>
@@ -92,45 +85,50 @@ algorithms-and-data-structures/
     ├── README.md
     ├── algorithms/
     │   ├── sorting/
-    │   │   ├── quick_sort.py
-    │   │   ├── merge_sort.py
-    │   │   ├── heap_sort.py
-    │   │   ├── bubble_sort.py
-    │   │   ├── selection_sort.py
-    │   │   ├── insertion_sort.py
-    │   │   ├── radix_sort.py
-    │   │   ├── counting_sort.py
-    │   │   ├── bucket_sort.py
-    │   │   └── tim_sort.py
-    │   ├── searching/
-    │   │   ├── binary_search.py
-    │   │   └── linear_search.py
-    │   └── graph/
-    │       ├── dfs.py
-    │       └── bfs.py
-    ├── data_structures/
-    │   ├── linear/
-    │   │   ├── linked_list.py
-    │   │   ├── stack.py
-    │   │   └── queue.py
-    │   ├── trees/
-    │   │   ├── binary_tree.py
-    │   │   └── avl_tree.py
-    │   └── graphs/
-    │       └── graph.py
+    │   │   ├── bubble_sort/
+    │   │   ├── bucket_sort/
+    │   │   ├── counting_sort/
+    │   │   ├── heap_sort/
+    │   │   ├── insertion_sort/
+    │   │   ├── merge_sort/
+    │   │   ├── quick_sort/
+    │   │   ├── radix_sort/
+    │   │   ├── selection_sort/
+    │   │   └── tim_sort/
+    │   └── searching/
+    │       ├── binary_search/
+    │       ├── exponential_search/
+    │       ├── fibonacci_search/
+    │       ├── hash_based_search/
+    │       ├── interpolation_search/
+    │       ├── jump_search/
+    │       ├── linear_search/
+    │       └── ternary_search/
     ├── tests/
-    │   ├── algorithms/
-    │   │   ├── test_quick_sort.py
-    │   │   ├── test_merge_sort.py
-    │   │   ├── test_heap_sort.py
-    │   │   ├── test_bubble_sort.py
-    │   │   ├── test_selection_sort.py
-    │   │   ├── test_insertion_sort.py
-    │   │   ├── test_radix_sort.py
-    │   │   ├── test_counting_sort.py
-    │   │   ├── test_bucket_sort.py
-    │   │   └── test_tim_sort.py
-    │   └── data_structures/
+    │   └── algorithms/
+    │       ├── searching/
+    │       │   ├── test_binary_search.py
+    │       │   ├── test_exponential_search.py
+    │       │   ├── test_fibonacci_search.py
+    │       │   ├── test_hash_based_search.py
+    │       │   ├── test_interpolation_search.py
+    │       │   ├── test_jump_search.py
+    │       │   ├── test_linear_search.py
+    │       │   └── test_ternary_search.py
+    │       └── sorting/
+    │           ├── test_bubble_sort.py
+    │           ├── test_bucket_sort.py
+    │           ├── test_counting_sort.py
+    │           ├── test_heap_sort.py
+    │           ├── test_insertion_sort.py
+    │           ├── test_merge_sort.py
+    │           ├── test_quick_sort.py
+    │           ├── test_radix_sort.py
+    │           ├── test_selection_sort.py
+    │           └── test_tim_sort.py
+    ├── benchmarks/
+    │   ├── search_benchmark_results.md
+    │   └── sort_benchmark_results.md
     ├── requirements.txt
     └── setup.py
 ```
@@ -168,28 +166,34 @@ python -m pytest
 
 | Structure   | Java | Python | Time Complexity (Average)  |
 | ----------- | ---- | ------ | -------------------------- |
-| Linked List | ✅   | ✅     | Access: O(n), Insert: O(1) |
-| Binary Tree | ✅   | ✅     | Search: O(log n)           |
-| Hash Table  | ✅   | ✅     | Search: O(1)               |
-| Stack       | ✅   | ✅     | Push/Pop: O(1)             |
-| Queue       | ✅   | ✅     | Enqueue/Dequeue: O(1)      |
+| Linked List | ✅   | ❌     | Access: O(n), Insert: O(1) |
+| Binary Tree | ✅   | ❌     | Search: O(log n)           |
+| Hash Table  | ✅   | ❌     | Search: O(1)               |
+| Stack       | ✅   | ❌     | Push/Pop: O(1)             |
+| Queue       | ✅   | ❌     | Enqueue/Dequeue: O(1)      |
 
 ### Algorithms
 
-| Algorithm     | Category  | Java | Python | Time Complexity |
-| ------------- | --------- | ---- | ------ | --------------- |
-| Quick Sort    | Sorting   | ✅   | ✅     | O(n log n)      |
-| Merge Sort    | Sorting   | ✅   | ✅     | O(n log n)      |
-| Binary Search | Searching | ✅   | ✅     | O(log n)        |
-| DFS           | Graph     | ✅   | ✅     | O(V + E)        |
-| BFS           | Graph     | ✅   | ✅     | O(V + E)        |
-| Bubble Sort   | Sorting   | ❌   | ✅     | O(n^2)          |
-| Selection Sort| Sorting   | ❌   | ✅     | O(n^2)          |
-| Insertion Sort| Sorting   | ❌   | ✅     | O(n^2)          |
-| Radix Sort    | Sorting   | ❌   | ✅     | O(nk)           |
-| Counting Sort | Sorting   | ❌   | ✅     | O(n + k)        |
-| Bucket Sort   | Sorting   | ❌   | ✅     | O(n + k)        |
-| Tim Sort      | Sorting   | ❌   | ✅     | O(n log n)      |
+| Algorithm            | Category  | Java | Python | Time Complexity |
+| -------------------- | --------- | ---- | ------ | --------------- |
+| Quick Sort           | Sorting   | ✅   | ✅     | O(n log n)      |
+| Merge Sort           | Sorting   | ✅   | ✅     | O(n log n)      |
+| Heap Sort            | Sorting   | ✅   | ✅     | O(n log n)      |
+| Binary Search        | Searching | ✅   | ✅     | O(log n)        |
+| Linear Search        | Searching | ❌   | ✅     | O(n)            |
+| Jump Search          | Searching | ❌   | ✅     | O(√n)           |
+| Interpolation Search | Searching | ❌   | ✅     | O(log log n)    |
+| Exponential Search   | Searching | ❌   | ✅     | O(log n)        |
+| Fibonacci Search     | Searching | ❌   | ✅     | O(log n)        |
+| Ternary Search       | Searching | ❌   | ✅     | O(log n)        |
+| Hash-based Search    | Searching | ❌   | ✅     | O(1)            |
+| Bubble Sort          | Sorting   | ❌   | ✅     | O(n^2)          |
+| Selection Sort       | Sorting   | ❌   | ✅     | O(n^2)          |
+| Insertion Sort       | Sorting   | ❌   | ✅     | O(n^2)          |
+| Radix Sort           | Sorting   | ❌   | ✅     | O(nk)           |
+| Counting Sort        | Sorting   | ❌   | ✅     | O(n + k)        |
+| Bucket Sort          | Sorting   | ❌   | ✅     | O(n + k)        |
+| Tim Sort             | Sorting   | ❌   | ✅     | O(n log n)      |
 
 ## 🤝 Contributing
 
@@ -201,6 +205,22 @@ Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTIN
 
 - GitHub: [@BjornMelin](https://github.com/BjornMelin)
 - LinkedIn: [Bjorn Melin](https://linkedin.com/in/bjorn-melin)
+
+## 📚 How to Cite
+
+If you use this repository in your research or project, please cite it as:
+
+```bibtex
+@misc{melin2024dsa,
+  author = {Melin, Bjorn},
+  title = {Data Structures and Algorithms Implementation},
+  year = {2024},
+  publisher = {GitHub},
+  journal = {GitHub Repository},
+  howpublished = {\url{https://github.com/BjornMelin/algorithms-and-data-structures}},
+  commit = {master}
+}
+```
 
 ## 📄 License
 
