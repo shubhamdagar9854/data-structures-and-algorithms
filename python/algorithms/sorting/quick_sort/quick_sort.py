@@ -18,6 +18,7 @@ Space Complexity: O(log n)
 
 from typing import List
 
+
 def quick_sort(arr: List[int]) -> List[int]:
     """
     Sorts an array of integers using the Quick Sort algorithm.

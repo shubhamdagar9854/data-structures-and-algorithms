@@ -1,5 +1,5 @@
 import pytest
-from algorithms.sorting.quick_sort import quick_sort
+from python.algorithms.sorting.quick_sort.quick_sort import quick_sort
 
 def test_quick_sort_empty():
     """

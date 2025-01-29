@@ -1,6 +1,7 @@
 # Tim Sort Algorithm
 
 ## Table of Contents
+
 - [Introduction](#introduction)
 - [Algorithm Explanation](#algorithm-explanation)
 - [Pseudocode](#pseudocode)
@@ -10,14 +11,17 @@
 - [Usage Guide](#usage-guide)
 
 ## Introduction
+
 Tim Sort is a hybrid sorting algorithm derived from merge sort and insertion sort. It is used in Python's built-in `sorted()` and `.sort()` methods. Tim Sort divides the array into small chunks called "runs" and sorts them using insertion sort, then merges the sorted runs using merge sort.
 
 ## Algorithm Explanation
+
 1. Divide the array into small chunks called "runs".
 2. Sort each run using insertion sort.
 3. Merge the sorted runs using merge sort.
 
 ## Pseudocode
+
 ```
 procedure timSort(A: list of sortable items)
     n := length(A)
@@ -87,12 +91,14 @@ end procedure
 ```
 
 ## Time and Space Complexity
+
 - **Best Case:** O(n)
 - **Average Case:** O(n log n)
 - **Worst Case:** O(n log n)
 - **Space Complexity:** O(n)
 
 ## Mermaid Diagram
+
 ```mermaid
 graph TD
     A[Start] --> B[Divide the array into small chunks called "runs"]
@@ -102,17 +108,20 @@ graph TD
 ```
 
 ## Testing Results
-| Test Case                | Input                | Expected Output       | Actual Output         |
-|--------------------------|----------------------|-----------------------|-----------------------|
-| Empty List               | []                   | []                    | []                    |
-| Single Element           | [1]                  | [1]                   | [1]                   |
-| Already Sorted           | [1, 2, 3, 4, 5]      | [1, 2, 3, 4, 5]       | [1, 2, 3, 4, 5]       |
-| Reverse Sorted           | [5, 4, 3, 2, 1]      | [1, 2, 3, 4, 5]       | [1, 2, 3, 4, 5]       |
-| Duplicates               | [3, 1, 2, 3, 1]      | [1, 1, 2, 3, 3]       | [1, 1, 2, 3, 3]       |
-| Large Dataset            | [1000, 999, ..., 1]  | [1, 2, ..., 1000]     | [1, 2, ..., 1000]     |
+
+| Test Case      | Input               | Expected Output   | Actual Output     |
+| -------------- | ------------------- | ----------------- | ----------------- |
+| Empty List     | []                  | []                | []                |
+| Single Element | [1]                 | [1]               | [1]               |
+| Already Sorted | [1, 2, 3, 4, 5]     | [1, 2, 3, 4, 5]   | [1, 2, 3, 4, 5]   |
+| Reverse Sorted | [5, 4, 3, 2, 1]     | [1, 2, 3, 4, 5]   | [1, 2, 3, 4, 5]   |
+| Duplicates     | [3, 1, 2, 3, 1]     | [1, 1, 2, 3, 3]   | [1, 1, 2, 3, 3]   |
+| Large Dataset  | [1000, 999, ..., 1] | [1, 2, ..., 1000] | [1, 2, ..., 1000] |
 
 ## Usage Guide
+
 To use the Tim Sort algorithm, follow these steps:
+
 1. Import the `tim_sort` function from the `tim_sort` module.
 2. Pass the list of integers to be sorted as an argument to the `tim_sort` function.
 3. The function will return the sorted list of integers.

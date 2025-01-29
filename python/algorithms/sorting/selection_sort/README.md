@@ -1,6 +1,7 @@
 # Selection Sort Algorithm
 
 ## Table of Contents
+
 - [Introduction](#introduction)
 - [Algorithm Explanation](#algorithm-explanation)
 - [Pseudocode](#pseudocode)
@@ -10,9 +11,11 @@
 - [Usage Guide](#usage-guide)
 
 ## Introduction
+
 Selection Sort is a simple comparison-based sorting algorithm. It divides the input list into two parts: the sublist of items already sorted, which is built up from left to right at the front (left) of the list, and the sublist of items remaining to be sorted that occupy the rest of the list. Initially, the sorted sublist is empty and the unsorted sublist is the entire input list. The algorithm proceeds by finding the smallest (or largest, depending on sorting order) element in the unsorted sublist, exchanging (swapping) it with the leftmost unsorted element (putting it in sorted order), and moving the sublist boundaries one element to the right.
 
 ## Algorithm Explanation
+
 1. Start with the first element of the list.
 2. Find the smallest element in the unsorted sublist.
 3. Swap the smallest element with the first element of the unsorted sublist.
@@ -20,6 +23,7 @@ Selection Sort is a simple comparison-based sorting algorithm. It divides the in
 5. Repeat steps 2-4 until the entire list is sorted.
 
 ## Pseudocode
+
 ```
 procedure selectionSort(A: list of sortable items)
     n := length(A)
@@ -36,12 +40,14 @@ end procedure
 ```
 
 ## Time and Space Complexity
+
 - **Best Case:** O(n^2)
 - **Average Case:** O(n^2)
 - **Worst Case:** O(n^2)
 - **Space Complexity:** O(1)
 
 ## Mermaid Diagram
+
 ```mermaid
 graph TD
     A[Start] --> B[Initialize n to length of list]
@@ -58,17 +64,20 @@ graph TD
 ```
 
 ## Testing Results
-| Test Case                | Input                | Expected Output       | Actual Output         |
-|--------------------------|----------------------|-----------------------|-----------------------|
-| Empty List               | []                   | []                    | []                    |
-| Single Element           | [1]                  | [1]                   | [1]                   |
-| Already Sorted           | [1, 2, 3, 4, 5]      | [1, 2, 3, 4, 5]       | [1, 2, 3, 4, 5]       |
-| Reverse Sorted           | [5, 4, 3, 2, 1]      | [1, 2, 3, 4, 5]       | [1, 2, 3, 4, 5]       |
-| Duplicates               | [3, 1, 2, 3, 1]      | [1, 1, 2, 3, 3]       | [1, 1, 2, 3, 3]       |
-| Large Dataset            | [1000, 999, ..., 1]  | [1, 2, ..., 1000]     | [1, 2, ..., 1000]     |
+
+| Test Case      | Input               | Expected Output   | Actual Output     |
+| -------------- | ------------------- | ----------------- | ----------------- |
+| Empty List     | []                  | []                | []                |
+| Single Element | [1]                 | [1]               | [1]               |
+| Already Sorted | [1, 2, 3, 4, 5]     | [1, 2, 3, 4, 5]   | [1, 2, 3, 4, 5]   |
+| Reverse Sorted | [5, 4, 3, 2, 1]     | [1, 2, 3, 4, 5]   | [1, 2, 3, 4, 5]   |
+| Duplicates     | [3, 1, 2, 3, 1]     | [1, 1, 2, 3, 3]   | [1, 1, 2, 3, 3]   |
+| Large Dataset  | [1000, 999, ..., 1] | [1, 2, ..., 1000] | [1, 2, ..., 1000] |
 
 ## Usage Guide
+
 To use the Selection Sort algorithm, follow these steps:
+
 1. Import the `selection_sort` function from the `selection_sort` module.
 2. Pass the list of integers to be sorted as an argument to the `selection_sort` function.
 3. The function will return the sorted list of integers.

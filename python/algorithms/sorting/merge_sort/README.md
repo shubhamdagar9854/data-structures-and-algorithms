@@ -1,6 +1,7 @@
 # Merge Sort Algorithm
 
 ## Table of Contents
+
 - [Introduction](#introduction)
 - [Algorithm Explanation](#algorithm-explanation)
 - [Pseudocode](#pseudocode)
@@ -10,14 +11,17 @@
 - [Usage Guide](#usage-guide)
 
 ## Introduction
+
 Merge Sort is a divide-and-conquer algorithm that divides the input array into two halves, recursively sorts them, and then merges the sorted halves to produce the final sorted array.
 
 ## Algorithm Explanation
+
 1. Divide the input array into two halves.
 2. Recursively sort each half.
 3. Merge the two sorted halves to produce the final sorted array.
 
 ## Pseudocode
+
 ```
 procedure mergeSort(A: list of sortable items)
     if length(A) <= 1 then
@@ -47,12 +51,14 @@ end procedure
 ```
 
 ## Time and Space Complexity
+
 - **Best Case:** O(n log n)
 - **Average Case:** O(n log n)
 - **Worst Case:** O(n log n)
 - **Space Complexity:** O(n)
 
 ## Mermaid Diagram
+
 ```mermaid
 graph TD
     A[Start] --> B[If length(A) <= 1, return A]
@@ -64,17 +70,20 @@ graph TD
 ```
 
 ## Testing Results
-| Test Case                | Input                | Expected Output       | Actual Output         |
-|--------------------------|----------------------|-----------------------|-----------------------|
-| Empty List               | []                   | []                    | []                    |
-| Single Element           | [1]                  | [1]                   | [1]                   |
-| Already Sorted           | [1, 2, 3, 4, 5]      | [1, 2, 3, 4, 5]       | [1, 2, 3, 4, 5]       |
-| Reverse Sorted           | [5, 4, 3, 2, 1]      | [1, 2, 3, 4, 5]       | [1, 2, 3, 4, 5]       |
-| Duplicates               | [3, 1, 2, 3, 1]      | [1, 1, 2, 3, 3]       | [1, 1, 2, 3, 3]       |
-| Large Dataset            | [1000, 999, ..., 1]  | [1, 2, ..., 1000]     | [1, 2, ..., 1000]     |
+
+| Test Case      | Input               | Expected Output   | Actual Output     |
+| -------------- | ------------------- | ----------------- | ----------------- |
+| Empty List     | []                  | []                | []                |
+| Single Element | [1]                 | [1]               | [1]               |
+| Already Sorted | [1, 2, 3, 4, 5]     | [1, 2, 3, 4, 5]   | [1, 2, 3, 4, 5]   |
+| Reverse Sorted | [5, 4, 3, 2, 1]     | [1, 2, 3, 4, 5]   | [1, 2, 3, 4, 5]   |
+| Duplicates     | [3, 1, 2, 3, 1]     | [1, 1, 2, 3, 3]   | [1, 1, 2, 3, 3]   |
+| Large Dataset  | [1000, 999, ..., 1] | [1, 2, ..., 1000] | [1, 2, ..., 1000] |
 
 ## Usage Guide
+
 To use the Merge Sort algorithm, follow these steps:
+
 1. Import the `merge_sort` function from the `merge_sort` module.
 2. Pass the list of integers to be sorted as an argument to the `merge_sort` function.
 3. The function will return the sorted list of integers.

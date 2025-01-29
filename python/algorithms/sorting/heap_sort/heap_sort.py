@@ -17,6 +17,7 @@ Space Complexity: O(1)
 
 from typing import List
 
+
 def heap_sort(arr: List[int]) -> List[int]:
     """
     Sorts an array of integers using the Heap Sort algorithm.
@@ -39,6 +40,7 @@ def heap_sort(arr: List[int]) -> List[int]:
         heapify(arr, i, 0)
 
     return arr
+
 
 def heapify(arr: List[int], n: int, i: int):
     """

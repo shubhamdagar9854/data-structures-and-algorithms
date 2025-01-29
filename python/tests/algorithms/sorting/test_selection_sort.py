@@ -1,5 +1,5 @@
 import pytest
-from algorithms.sorting.selection_sort import selection_sort
+from python.algorithms.sorting.selection_sort.selection_sort import selection_sort
 
 def test_selection_sort_empty():
     """Test selection sort with an empty list."""

@@ -1,6 +1,7 @@
 # Heap Sort Algorithm
 
 ## Table of Contents
+
 - [Introduction](#introduction)
 - [Algorithm Explanation](#algorithm-explanation)
 - [Pseudocode](#pseudocode)
@@ -10,14 +11,17 @@
 - [Usage Guide](#usage-guide)
 
 ## Introduction
+
 Heap Sort is a comparison-based sorting algorithm that uses a binary heap data structure. It divides its input into a sorted and an unsorted region, and it iteratively shrinks the unsorted region by extracting the largest element and moving that to the sorted region.
 
 ## Algorithm Explanation
+
 1. Build a max heap from the input data.
 2. At this point, the largest item is stored at the root of the heap. Replace it with the last item of the heap followed by reducing the size of the heap by 1. Finally, heapify the root of the tree.
 3. Repeat step 2 while the size of the heap is greater than 1.
 
 ## Pseudocode
+
 ```
 procedure heapSort(A: list of sortable items)
     n := length(A)
@@ -48,12 +52,14 @@ end procedure
 ```
 
 ## Time and Space Complexity
+
 - **Best Case:** O(n log n)
 - **Average Case:** O(n log n)
 - **Worst Case:** O(n log n)
 - **Space Complexity:** O(1)
 
 ## Mermaid Diagram
+
 ```mermaid
 graph TD
     A[Start] --> B[Build a max heap from the input data]
@@ -65,17 +71,20 @@ graph TD
 ```
 
 ## Testing Results
-| Test Case                | Input                | Expected Output       | Actual Output         |
-|--------------------------|----------------------|-----------------------|-----------------------|
-| Empty List               | []                   | []                    | []                    |
-| Single Element           | [1]                  | [1]                   | [1]                   |
-| Already Sorted           | [1, 2, 3, 4, 5]      | [1, 2, 3, 4, 5]       | [1, 2, 3, 4, 5]       |
-| Reverse Sorted           | [5, 4, 3, 2, 1]      | [1, 2, 3, 4, 5]       | [1, 2, 3, 4, 5]       |
-| Duplicates               | [3, 1, 2, 3, 1]      | [1, 1, 2, 3, 3]       | [1, 1, 2, 3, 3]       |
-| Large Dataset            | [1000, 999, ..., 1]  | [1, 2, ..., 1000]     | [1, 2, ..., 1000]     |
+
+| Test Case      | Input               | Expected Output   | Actual Output     |
+| -------------- | ------------------- | ----------------- | ----------------- |
+| Empty List     | []                  | []                | []                |
+| Single Element | [1]                 | [1]               | [1]               |
+| Already Sorted | [1, 2, 3, 4, 5]     | [1, 2, 3, 4, 5]   | [1, 2, 3, 4, 5]   |
+| Reverse Sorted | [5, 4, 3, 2, 1]     | [1, 2, 3, 4, 5]   | [1, 2, 3, 4, 5]   |
+| Duplicates     | [3, 1, 2, 3, 1]     | [1, 1, 2, 3, 3]   | [1, 1, 2, 3, 3]   |
+| Large Dataset  | [1000, 999, ..., 1] | [1, 2, ..., 1000] | [1, 2, ..., 1000] |
 
 ## Usage Guide
+
 To use the Heap Sort algorithm, follow these steps:
+
 1. Import the `heap_sort` function from the `heap_sort` module.
 2. Pass the list of integers to be sorted as an argument to the `heap_sort` function.
 3. The function will return the sorted list of integers.

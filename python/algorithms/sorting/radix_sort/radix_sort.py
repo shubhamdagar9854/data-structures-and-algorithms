@@ -16,6 +16,7 @@ Space Complexity: O(n + k)
 
 from typing import List
 
+
 def counting_sort_for_radix(arr: List[int], exp: int) -> List[int]:
     """
     A function to do counting sort of arr[] according to the digit represented by exp.
@@ -53,6 +54,7 @@ def counting_sort_for_radix(arr: List[int], exp: int) -> List[int]:
         arr[i] = output[i]
 
     return arr
+
 
 def radix_sort(arr: List[int]) -> List[int]:
     """
