@@ -20,6 +20,7 @@ from typing import List
 
 MIN_RUN = 32
 
+
 def insertion_sort(arr: List[int], left: int, right: int) -> None:
     """
     Sorts a portion of the array using the Insertion Sort algorithm.
@@ -36,6 +37,7 @@ def insertion_sort(arr: List[int], left: int, right: int) -> None:
             arr[j + 1] = arr[j]
             j -= 1
         arr[j + 1] = key
+
 
 def merge(arr: List[int], left: int, mid: int, right: int) -> None:
     """
@@ -75,6 +77,7 @@ def merge(arr: List[int], left: int, mid: int, right: int) -> None:
         arr[k] = right_part[j]
         j += 1
         k += 1
+
 
 def tim_sort(arr: List[int]) -> List[int]:
     """

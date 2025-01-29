@@ -17,6 +17,7 @@ Space Complexity: O(n)
 
 from typing import List
 
+
 def merge_sort(arr: List[int]) -> List[int]:
     """
     Sorts an array of integers using the Merge Sort algorithm.
@@ -35,6 +36,7 @@ def merge_sort(arr: List[int]) -> List[int]:
     right_half = merge_sort(arr[mid:])
 
     return merge(left_half, right_half)
+
 
 def merge(left: List[int], right: List[int]) -> List[int]:
     """

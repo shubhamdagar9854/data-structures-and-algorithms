@@ -19,6 +19,7 @@ Space Complexity: O(n + k)
 
 from typing import List
 
+
 def counting_sort(arr: List[int]) -> List[int]:
     """
     Sorts an array of integers using the Counting Sort algorithm.

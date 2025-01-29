@@ -17,6 +17,7 @@ Space Complexity: O(1)
 
 from typing import List
 
+
 def insertion_sort(arr: List[int]) -> List[int]:
     """
     Sorts an array of integers using the Insertion Sort algorithm.
